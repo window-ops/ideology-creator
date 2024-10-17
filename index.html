@@ -15,7 +15,7 @@
     <div class="container-fluid pt-3">
       <form id="ideology-form">
         <div class="card mb-3">
-          <div class="card-header">Name The Ideology</div>
+          <div class="card-header">Name the ideology</div>
           <div class="card-body">
             <div class="form-group mb-0">
               <input type="text" class="form-control" id="ideology-name" placeholder="Enter ideology name" required>
@@ -42,6 +42,7 @@
               <optgroup label="Technical Systems">
                 <option value="a technocracy led by experts and scientists">Technocracy</option>
                 <option value="a cybernetic model integrating technology and human decision-making">Cybernetics</option>
+                <option value="a comprehensive government led by advanced AI">AI Governance</option>
               </optgroup>
             </select>
           </div>
@@ -50,21 +51,26 @@
           <div class="card-header">Economic System</div>
           <div class="card-body">
             <select class="form-control" id="economy" required>
-              <optgroup label="Capitalist Systems">
-                <option value="a capitalist economy driven by free market and competition">Capitalism</option>
+              <optgroup label="Capitalistic systems">
+                <option value="a capitalistic economy driven by free market and competition">Capitalism</option>
                 <option value="a mixed economy combining elements of both capitalism and socialism">Mixed Economy</option>
               </optgroup>
-              <optgroup label="Socialist Systems">
+              <optgroup label="Socialistic systems">
                 <option value="a socialist economy focused on equality, equity and collective ownership">Socialism</option>
-                <option value="a communal economy where all resources (even personal property) are shared equally among all members">Communalism</option>
+                <option value="a post-scarcity socialist economy where resources are abundant and freely available, focused on equality, equity, collective ownership and destriibution to each according to their needs">Post-Scarcity Socialism</option>
+                <option value="a communal economy where all resources are shared equally among all members">Communalism</option>
               </optgroup>
-              <optgroup label="Informal Systems">
+              <optgroup label="Informal systems">
                 <option value="an informal economy that operates outside of formal regulations">Informal Economy</option>
                 <option value="a barter system where goods are exchanged directly without money">Barter System</option>
               </optgroup>
-              <optgroup label="Other Systems">
+              <optgroup label="Other systems">
                 <option value="an agrarian economy based on farming and rural living">Agrarianism</option>
                 <option value="a digital economy focused on online transactions and cryptocurrencies">Digital Economy</option>
+              </optgroup>
+              <optgroup label="Futuristic systems">
+                <option value="an economy based on space exploration and off-world colonies">Space Economy</option>
+                <option value="a typical post-scarcity economy where resources are abundant and freely available">Typical Post-Scarcity</option>
               </optgroup>
             </select>
           </div>
@@ -73,20 +79,20 @@
           <div class="card-header">Social Structure</div>
           <div class="card-body">
             <select class="form-control" id="society" required>
-              <optgroup label="Equalitarian Systems">
+              <optgroup label="Equalitarian systems">
                 <option value="an egalitarian society that promotes equal rights for all individuals">Egalitarianism</option>
-                <option value="a cooperative society that values mutual aid and collective living">Cooperative Society</option>
+                <option value="a cooperative society that values mutual aid and collective living">Cooperative society</option>
                 <option value="a cosmopolitan society that values diversity and global citizenship">Cosmopolitanism</option>
               </optgroup>
-              <optgroup label="Individualistic Systems">
+              <optgroup label="Individualistic systems">
                 <option value="an individualistic society where personal freedom is prioritized over collective needs">Individualism</option>
                 <option value="a meritocratic society where individuals advance based on ability and talent">Meritocracy</option>
               </optgroup>
-              <optgroup label="Hierarchical Systems">
+              <optgroup label="Hierarchical systems">
                 <option value="a hierarchical society that values social status and roles">Hierarchical Society</option>
                 <option value="an age-based society that values experience and seniority">Gerontocracy</option>
               </optgroup>
-              <optgroup label="Primitive Systems">
+              <optgroup label="Primitive systems">
                 <option value="a tribal society that values kinship and community bonds">Tribalism</option>
                 <option value="a nomadic society that moves frequently in search of resources or better living conditions">Nomadism</option>
               </optgroup>
@@ -94,20 +100,20 @@
           </div>
         </div>
         <div class="card mb-3">
-          <div class="card-header">Cultural Approach</div>
+          <div class="card-header">Cultural approach</div>
           <div class="card-body">
             <select class="form-control" id="culture" required>
-              <optgroup label="Progressive Approaches">
+              <optgroup label="Progressive approaches">
                 <option value="a multicultural approach celebrating diverse cultures and traditions">Multiculturalism</option>
                 <option value="a digital approach focused on online interactions and social media">Digital Culture</option>
                 <option value="a globalist perspective advocating for interconnectedness among cultures worldwide">Globalization</option>
               </optgroup>
-              <optgroup label="Conservative Approaches">
+              <optgroup label="Conservative approaches">
                 <option value="a nationalistic approach emphasizing a single national identity">Nationalism</option>
                 <option value="an assimilationist approach encouraging cultural uniformity">Assimilationism</option>
                 <option value="a traditionalist approach valuing historical customs and practices over modern influences">Traditionalism</option>
               </optgroup>
-              <optgroup label="Non-Mainstream Approaches">
+              <optgroup label="Non-mainstream approaches">
                 <option value="an avant-garde approach promoting radical artistic expression and innovation">Avant-Garde</option>
                 <option value="a countercultural movement questioning mainstream societal norms through alternative lifestyles">Counterculture</option>
               </optgroup>
@@ -115,35 +121,39 @@
           </div>
         </div>
         <div class="card mb-3">
-          <div class="card-header">Environmental Policy</div>
+          <div class="card-header">Environmental policy</div>
           <div class="card-body">
             <select class="form-control" id="environment" required>
-              <optgroup label="Simple Ecological Policies">
+              <optgroup label="Simple ecological policies">
                 <option value="an environmentally sustainable practices, prioritizing green technologies">Eco-Friendliness</option>
                 <option value="a approach of conservation that protects natural resources at all costs">Conservationism</option>
                 <option value="an anti-industrial approach opposing large-scale production for environmental reasons">Anti-Industrialism</option>
               </optgroup>
-              <optgroup label="Complex Ecological Policies">
+              <optgroup label="Complex ecological policies">
                 <option value="a radical environmentalist approach advocating for deep ecological changes">Radical Environmentalism</option>
                 <option value="an ecosystem-based management strategy focusing on preserving entire ecosystems rather than individual species or resources">Ecosystem Management</option>
                 <option value="an environmental justice approach ensuring equitable distribution of environmental benefits and burdens across all communities">Environmental Justice</option>
               </optgroup>
-              <optgroup label="Modernist Ecological Policies">
+              <optgroup label="Modernist ecological policies">
                 <option value="an urban-centric approach promoting sustainable city living practices">Urban Sustainability</option>
                 <option value="a geoengineering approach aimed at manipulating Earth's climate to combat global warming">Geoengineering Policy</option>
               </optgroup>
-              <optgroup label="Industrialist Policies">
+              <optgroup label="Industrialist policies">
                 <option value="an industrial approach focused on economic growth regardless of environmental impact">Industrial Growth</option>
                 <option value="an expansionist approach that encourages the exploitation of natural resources for development">Resource Exploitation</option>
+              </optgroup>
+              <optgroup label="Futuristic policies">
+                <option value="a policy focused on space terraforming and off-world sustainability">Space Terraforming</option>
+                <option value="a policy focused on advanced biotechnology and genetic engineering">Biotechnology Policy</option>
               </optgroup>
             </select>
           </div>
         </div>
-        <button type='button' class='btn btn-primary mb-3' id='generate-ideology-btn'>Generate Ideology</button>
+        <button type='button' class='btn btn-primary mb-3' id='generate-ideology-btn'>Generate ideology</button>
         <div class='card mb-3'>
-          <div class='card-header'>Created Ideology</div>
+          <div class='card-header'>Created ideology</div>
           <div class='card-body'>
-            <p id='result-text' class='mb-0'>No Ideology has been created yet.</p>
+            <p id='result-text' class='mb-0'>No ideology has been created yet.</p>
           </div>
         </div>
         <script src='script.js'></script>
